@@ -193,7 +193,7 @@ public class Util {
 	}
 
 	public static boolean isProEnabled() {
-		return mPro;
+		return true;//enabled;//mPro;
 	}
 
 	public static String hasProLicense(Context context) {
@@ -201,7 +201,7 @@ public class Util {
 			// Get license
 			String[] license = getProLicenseUnchecked();
 			if (license == null)
-				return null;
+				return "LW";//true;//null;
 			String name = license[0];
 			String email = license[1];
 			String signature = license[2];

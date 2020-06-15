@@ -21,3 +21,9 @@ local.properties
 
 #proguard
 proguard/
+
+#i added
+.idea
+.gradle
+.settings
+

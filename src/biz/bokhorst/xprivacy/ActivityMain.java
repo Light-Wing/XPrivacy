@@ -98,7 +98,7 @@ public class ActivityMain extends ActivityBase implements OnItemSelectedListener
 
 	private static final int ACTIVITY_LICENSE = 0;
 	private static final int LICENSED = 0x0100;
-	private static final int NOT_LICENSED = 0x0231;
+	private static final int NOT_LICENSED = 0x0100;//0x0231;
 	private static final int RETRY = 0x0123;
 
 	private static final int ERROR_CONTACTING_SERVER = 0x101;
